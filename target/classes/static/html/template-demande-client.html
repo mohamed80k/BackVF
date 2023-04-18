@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Demande de creation d'un compte client</title>
+<style>
+* {
+	box-sizing: border-box;
+}
+
+.column-25 {
+	float: left;
+	width: 25%;
+}
+
+.column-50 {
+	float: left;
+	width: 50%;
+}
+
+.column-75 {
+	float: left;
+	width: 75%;
+}
+
+.column {
+	float: left;
+	width: 100%;
+}
+
+.column-33 {
+	float: left;
+	width: 33.33333333%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.padding {
+	padding: 10px;
+}
+
+.centred-text {
+	text-align: center;
+}
+
+.column-16 {
+	float: left;
+	width: 16.66666667%;
+}
+
+.column-18 {
+	float: left;
+	width: 18.75%;
+}
+
+.column-8 {
+	float: left;
+	width: 8.33333333%;
+}
+
+.centred-text img {
+	max-width: 50%;
+	max-height: 93px;
+	height: 93px;
+	min-height: 93px;
+}
+
+.small {
+	font-size: smaller;
+}
+
+.container {
+	max-width: 1140px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -32px;
+}
+
+.brown-bg-color {
+	background-color: #a39572;
+	color: #ffffff;
+}
+
+.brown-color {
+	color: #a39572;
+}
+
+.brown-border {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #a39572;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}
+
+.brown-border-signature {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #a39572;
+}
+
+.marg {
+	padding: 1px 4px;
+	margin-top: 5px;
+}
+
+.right-border {
+	border-right: 2px solid #a39572;
+}
+
+.padd {
+	padding: 1px;
+}
+
+.left-text {
+	text-align: left;
+}
+
+.direction {
+	font-weight: 400;
+	font-size: 19px;
+}
+
+body {
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.fiche {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.cust-height {
+	height: 45px;
+}
+
+.custom-font-weight {
+	font-weight: 100;
+	padding-left: 14px;
+}
+
+.column-73 {
+	float: right;
+	width: 73%;
+}
+
+.column.box-shadow {
+	box-shadow: 0 4px 6px -6px #222;
+}
+
+.styled-border {
+	border: 1px solid #a39572;
+	border-radius: 8px;
+	margin-top: 5px;
+}
+
+.column-23 {
+	margin-left: 5px;
+	width: 23%;
+	float: left;
+}
+
+.column-99 {
+	width: 99%;
+	float: left;
+}
+
+.marg-fiften {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.marg-seven {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.column-24 {
+	margin-left: 6px;
+	width: 24.2%;
+	float: left;
+}
+
+.small-font-size{
+font-size: 9px;
+}
+</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="column-25">
+				<div class="column box-shadow"
+					style="padding: 33px 20px; text-align: center;">
+					<img src="http://79.137.75.178/images/logo-menara-holiding.png"
+						style="float: left;" alt="groupe menara" width="100%" /> <a
+						href="http://groupe-menara.com/" class="brown-color small"
+						style="text-decoration: none;">www.groupe-menara.com</a>
+				</div>
+
+			</div>
+			<div class="column-73">
+				<div class="column-75 styled-border">
+					<h3 class="brown-color custom-font-weight marg-fiften">DIRECTION
+						COMMERCIALE</h3>
+				</div>
+				<div class="column-23 styled-border">
+					<h3 class="brown-color custom-font-weight marg-fiften">Site: Tous</h3>
+				</div>
+				<div class="column-99 styled-border">
+					<h1 class="brown-color centred-text marg-fiften"
+						style="font-size: 1.5em;">FICHE DE GESTION COMPTE CLIENT</h1>
+				</div>
+				<div class="column-24 styled-border" style="margin-left: 0px;">
+					<h5 class="brown-color custom-font-weight marg-fiften">Formulaire</h5>
+				</div>
+				<div class="column-24 styled-border">
+					<h5 class="brown-color custom-font-weight marg-fiften">Edition:
+						%date%</h5>
+				</div>
+				<div class="column-24 styled-border">
+					<h5 class="brown-color custom-font-weight marg-fiften">Version:
+						00</h5>
+				</div>
+				<div class="column-23 styled-border">
+					<h5 class="brown-color custom-font-weight marg-fiften">Réf. :
+						%ref%</h5>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column-50 padding">
+				<label for="create" style="margin-left: 20px;"> Nouvelle
+					Création</label> <input type="checkbox" name="create" value="create"
+					%checkedCreate% style="float: left;" />
+			</div>
+			<div class="column-50 padding">
+				<label for="rev" style="margin-left: 20px;"> Révision
+					d'encours</label> <input type="checkbox" name="rev" value="rev"
+					%checkedRev% style="float: left;" />
+			</div>
+		</div>
+
+		<div class="row brown-border marg">
+			<div class="column" style="float: left; width: 100%;">
+				<h2 class="centred-text brown-bg-color marg-seven">Identification
+					client</h2>
+			</div>
+			<div class="row">
+				<div class="column-25">
+					<div class=" brown-border">Raison Sociale</div>
+				</div>
+				<div class="column-75">
+					<div class=" brown-border">%raisonSociale%</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">Adresse siège social</div>
+				</div>
+				<div class="column-75">
+					<div class=" brown-border">%adresse%</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="column-25">
+					<div class=" brown-border">Téléphone Bureau</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%phoneBureau%</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">N° RC</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%numeroRC%</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="column-25">
+					<div class=" brown-border">Fax Bureau</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%fax%</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">N° Patente</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%patent%</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="column-25">
+					<div class=" brown-border">Nom contact</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%name%</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">Identifiant fiscal</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%identifiantFiscal%</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="column-25">
+					<div class=" brown-border">Tél. contact</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%phoneContact%</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">N° CIN (Gérant/Adm)</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%cin%</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="column-25">
+					<div class=" brown-border">Responsable Réglement</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%responsableReglement%</div>
+				</div>
+				<div class="column-50">
+					<div class=" brown-border">Banque: %banque%</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="column-25">
+					<div class=" brown-border">Adresse e-mail</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%email%</div>
+				</div>
+				<div class="column-50">
+					<div class=" brown-border">RIB: %rib%</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row brown-border marg">
+			<div class="column">
+				<h2 class="centred-text brown-bg-color marg-seven">Conditions
+					et Règles de Gestion Demandées</h2>
+			</div>
+
+			<div class="row">
+				<div class="column-25">
+					<div class=" brown-border">Mode de règlement</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%modeReglement%</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">Montant de la caution</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%MontantCaution%</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="column-25">
+					<div class=" brown-border">délai de règlement</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%delaiReglement%</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">Encours demandé</div>
+				</div>
+				<div class="column-25">
+					<div class=" brown-border">%encoursDemande%</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row brown-border marg">
+			<div class="column">
+				<h2 class="centred-text brown-bg-color marg-seven">Informations
+					Commerciales</h2>
+			</div>
+			<div class="row">
+				<div class="column-25">
+					<div class="brown-border cust-height">Projet objet de la
+						demande</div>
+				</div>
+				<div class="column-75">
+					<div class="brown-border cust-height">%projetObjetDemande%</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column-25">
+					<div class="brown-border cust-height">Maître d'ouvrage</div>
+				</div>
+				<div class="column-25">
+					<div class="brown-border cust-height">%maitreOuvrage%</div>
+				</div>
+				<div class="column-25">
+					<div class="brown-border cust-height">N° de marché public</div>
+				</div>
+				<div class="column-25">
+					<div class="brown-border cust-height">%numeroMarchePublic%</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<div class="column-25">
+						<div class=" brown-border cust-height">Cout global du projet</div>
+					</div>
+					<div class="column-16">
+						<div class=" brown-border cust-height">%coutGlobalProjet%</div>
+					</div>
+					<div class="column-16">
+						<div class=" brown-border cust-height">C.A potentiel</div>
+					</div>
+					<div class="column-16">
+						<div class=" brown-border cust-height">%caPotentiel%</div>
+					</div>
+					<div class="column-16">
+						<div class=" brown-border cust-height">Délai du projet</div>
+					</div>
+					<div class="column-8">
+						<div class=" brown-border cust-height">%delaiProjet%</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column-25">
+					<div class=" brown-border cust-height">Référence &
+						Partenaires Clients</div>
+				</div>
+				<div class="column-75">
+					<div class=" brown-border cust-height">%referencePartenairesClients%</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column-25">
+					<div class=" brown-border cust-height">Partenaires
+						Fournisseur ou Associés</div>
+				</div>
+				<div class="column-75">
+					<div class=" brown-border cust-height">%partenairesFournisseursAssocies%</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row brown-border marg">
+			<div class="column-50 centred-text"
+				style="border-right-width: 2px; border-right-style: solid; border-right-color: #a39572;height: 137px;">
+				<p>Cachet et signature du demandeur</p>
+				<img src="%signatureDemander%" />
+			</div>
+			<div class="column-50 centred-text">
+				<p>Signature Directeur commercial / Responsable BU</p>
+				<img src="%signatureDirecteur%" />
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="column">
+				<p class="small-font-size">
+					<b>Pièces à joindre : </b>Registre de commerce " Model J ", Status,
+					Taxe professionnelle, Copie CIN Gérants/Administrateurs Attestation
+					de RIB, Caution bancaire selon model.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
